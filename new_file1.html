@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
     <title>你好，欢迎来到</title>
     <style>
         body {
@@ -82,6 +83,67 @@
 			font-size: 80px;
 			z-index: 1;
 		}
+		
+		@media (max-width: 640px) {
+		    body {
+		        width: 100%; /* 在小屏幕上将宽度设置为100% */
+		        height: auto; /* 高度自适应 */
+		        border: none; /* 移除边框 */
+		    }
+		
+		    .image-container {
+		        width: 100%; /* 图片容器宽度设置为100% */
+		    }
+		
+		    .image-container img {
+		        width: 100%; /* 图片宽度设置为100% */
+		        height: auto; /* 高度自适应 */
+		    }
+		
+		    h1 {
+		        top: 10%; /* 调整h1的位置 */
+		        left: 50%; 
+		        transform: translateX(-50%); /* 居中显示 */
+		        font-size: 30px; /* 调整字体大小 */
+		    }
+		
+		    h2 {
+		        top: 12%; /* 调整h2的位置 */
+		        left: 50%; 
+		        transform: translateX(-50%); /* 居中显示 */
+		        font-size: 40px; /* 调整字体大小 */
+		    }
+		
+		     button {
+		            font-size: 40px; /* 调整按钮字体大小 */
+		           
+		            top: -200px; /* 设置相对位置 */
+		        }
+		
+		    #new-label {
+		        top: 12%; /* 调整新标签的位置 */
+		        left: 50%; 
+		        transform: translateX(-50%); /* 居中显示 */
+		        font-size: 60px; /* 调整字体大小 */
+		    }
+		
+		    .second-image {
+		        top: 30%; /* 调整第二张图片的位置 */
+		        left: 50%; 
+		        transform: translateX(-50%); /* 居中显示 */
+		        width: 150px; /* 调整图片大小 */
+		        height: 150px;
+		    }
+		
+		    #enter-button {
+		        font-size: 60px; /* 调整按钮字体大小 */
+		        top: 50%; /* 调整按钮的位置 */
+		        left: 50%; 
+		        transform: translateX(-50%); /* 居中显示 */
+		    }
+		}
+
+
     </style>
 </head>
 <body>
